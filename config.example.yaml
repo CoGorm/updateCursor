@@ -1,0 +1,20 @@
+# Configuration file for updateCursor
+# Copy this file to ~/.config/updateCursor/config.yaml and customize as needed
+
+# Download directory - where Cursor AppImage files are stored
+# Default: ~/Downloads/Cursor
+download_dir: "~/Documents/Cursor"
+
+# Filename pattern - how downloaded files are named
+# The <version> placeholder will be replaced with the actual version
+# Default: Cursor-<version>-x86_64.AppImage
+file_name_pattern: "Cursor_<version>.AppImage"
+
+# Latest symlink - path to the symlink pointing to the current version
+# This is what you'll use to launch Cursor
+# Default: ~/Downloads/Cursor/Cursor.AppImage
+latest_symlink: "~/.local/bin/Cursor.AppImage"
+
+# Ledger path - where the update history is stored
+# Default: ~/.config/updateCursor/cursor-versions.log
+ledger_path: "~/.config/updateCursor/cursor-versions.log"
