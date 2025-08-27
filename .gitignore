@@ -34,6 +34,7 @@ go.work.sum
 
 # Made file
 updatecursor
+!updatecursor/
 
 # Config file
 config.yaml
